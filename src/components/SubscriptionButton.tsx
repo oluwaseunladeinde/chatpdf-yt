@@ -24,7 +24,7 @@ const SubscriptionButton = (props: Props) => {
     }
 
     return (
-        <Button disabled={loading} onClick={handleSubscriptions} variant={'outline'}>
+        <Button disabled={loading} onClick={handleSubscriptions} variant={'outline'} className='text-dark'>
             {
                 props.isPro ? 'Manage Subscriptions' : 'Get Pro!'
             }
